@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Digital-7;
+    src: url('../fonts/digital-7.ttf');
+}
+
+body{
+	background-image: url(../img/picture.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.base{
+	margin: 5em 0 0 5em;
+	background-color: #4682B4;
+	width: 25%;
+  box-sizing: border-box;
+  border-radius: 0.4em;
+  border: 0.1em solid;
+}
+
+#display{
+	width: 90%;
+  box-sizing: border-box;
+	margin: 5% 2% 2% 5%;
+	font-size: 2em;
+	padding: 0.5em;
+  text-align: right;
+  border-radius: 0.3em;
+  color: #FFFFFF;
+  background: #000000;
+  border: 0.1em solid;
+  font-family: Digital-7;
+}
+
+.keyboard{
+  box-sizing: border-box;
+  margin: 5% 2% 0 5%;
+  width: 100%;
+}
+
+button{ 
+	margin: 1%;
+	width: 20%;
+	color: 	#2F4F4F;
+	font-size: 1.5em;
+  border-radius: 0.2em;
+  border: 0.1em solid;
+  text-transform:uppercase;
+  background: #FFFAFA;
+}
+
+#result{
+  width: 66%;
+}
+
+.operation:hover{
+  background: #B0E0E6;
+  color: #2F4F4F;
+}
+
+.number:hover{
+  background: #2F4F4F;
+  color: #FFFAFA;
+}
+
+#decimal:hover{
+  background: #B0E0E6;
+  color: #2F4F4F;
+}
+
+.clear:hover{
+  background: #A52A2A;
+  color: #FFFAFA;
+}
+
