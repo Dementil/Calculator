@@ -5,32 +5,44 @@
 	<meta charset="UTF-8">
 	<title>Онлайн калькулятор</title>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
+	 crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
+	 crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+	 crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+	 crossorigin="anonymous"></script>
 </head>
 
 <body>
-	<div class="base">
-		<input disabled type="text" value="0" id="display" name="">
-		<div class="keyboard">
-			<button value="ce" type="button" class="clear" id="ce">ce</button>
-			<button value="c" type="button" class="clear" id="c">c</button>
-			<button value="/" type="button" class="operation">/</button>
-			<button value="x" type="button" class="operation">*</button>
-			<button value="7" type="button" class="number">7</button>
-			<button value="8" type="button" class="number">8</button>
-			<button value="9" type="button" class="number">9</button>
-			<button value="-" type="button" class="operation">-</button>
-			<button value="4" type="button" class="number">4</button>
-			<button value="5" type="button" class="number">5</button>
-			<button value="6" type="button" class="number">6</button>
-			<button value="+" type="button" class="operation">+</button>
-			<button value="1" type="button" class="number">1</button>
-			<button value="2" type="button" class="number">2</button>
-			<button value="3" type="button" class="number">3</button>
-			<button value="0" type="button" class="number">0</button>
-			<button value="." type="button" id="decimal">.</button>
-			<button type="button" class="operation" id="result">=</button>
-			<br>
-			<br>
+	<div class="container">
+		<div class="row">
+			<div class="base col-lg-5 col-md-12 align-items-start">
+				<input disabled type="text" value="0" id="display" name="">
+				<div class="keyboard">
+					<button value="ce" type="button" class="clear" id="ce">ce</button>
+					<button value="c" type="button" class="clear" id="c">c</button>
+					<button value="/" type="button" class="operation">/</button>
+					<button value="x" type="button" class="operation">*</button>
+					<button value="7" type="button" class="number">7</button>
+					<button value="8" type="button" class="number">8</button>
+					<button value="9" type="button" class="number">9</button>
+					<button value="-" type="button" class="operation">-</button>
+					<button value="4" type="button" class="number">4</button>
+					<button value="5" type="button" class="number">5</button>
+					<button value="6" type="button" class="number">6</button>
+					<button value="+" type="button" class="operation">+</button>
+					<button value="1" type="button" class="number">1</button>
+					<button value="2" type="button" class="number">2</button>
+					<button value="3" type="button" class="number">3</button>
+					<button value="0" type="button" class="number">0</button>
+					<button value="." type="button" id="decimal">.</button>
+					<button type="button" class="operation" id="result">=</button>
+					<br>
+					<br>
+				</div>
+			</div>
 		</div>
 	</div>
 
